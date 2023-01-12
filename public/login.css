@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    
+}
+
+
+
+ body{
+    align-items: center;
+    justify-content: center;
+    background-color: #9b59b6;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(17,15,15,0.01)),url('/img/dairy.jpg');
+    background-repeat:no-repeat;
+    min-height: 650px !important;
+    background-size: cover !important;
+    background-position: center !important;
+}  
+/* #hospital{
+    margin-left : 100px;
+    color: white;
+    
+} */
+/* .navbar{
+    font-size: 20px;
+    background-color: purple !important;
+}
+.navbar-nav{
+    margin-left: 50%;
+    color: white; 
+}
+.nav-item{
+    margin-left: 20px;
+} */
+.card{
+    /* background-color: #fff; */
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 190%!important;
+   background-color: rgba(46, 53, 66, 0.079) !important;
+    
+}
+/* .bg-light{
+    /* background: none; */
+    /* opacity: 70%;
+    text-decoration: solid;
+    
+} */ 
+
+.Cheader{
+    /* border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7; */
+	text-align: center;
+    color: white !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-group{
+    color: white !important;
+}
+
+.form-group input {
+	/* border: 2px solid #f0f0f0;
+	border-radius: 4px; */
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+    
+}
+.form-group.success input {
+	border-color: #2ecc71;
+
+}
+
+.form-group.error input {
+	border-color: #e74c3c;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: none !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.label{
+    color: rgb(17, 12, 12);
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.card-footer{
+    /* border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7; */
+	padding: 20px 40px;
+    
+    font-size: 20px;
+} 
